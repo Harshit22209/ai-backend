@@ -2,8 +2,8 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 
-const apiRoutes = require('./routes/api'); // Combined route file
-const errorHandler = require('./middleware/errorHandler');
+const apiRoutes = require('./routes/api.js'); // Combined route file
+const errorHandler = require('./middleware/errorHandler.js');
 
 const app = express();
 const port = process.env.PORT || 5000;

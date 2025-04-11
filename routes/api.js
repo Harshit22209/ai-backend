@@ -4,9 +4,9 @@
 
 const express = require('express');
 const router = express.Router();
-const { validateEmails } = require('../middleware/emailValidator');
-const emailService = require('../services/emailService');
-const aiService = require('../services/aiService');
+const { validateEmails } = require('../middleware/emailValidator.js');
+const emailService = require('../services/emailService.js');
+const aiService = require('../services/aiService.js');
 
 /**
  * POST /api/generate-email
